@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:21:30.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="0eYR_oiFfqaJCQ-jXy-P" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:26:31.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7E906Fm9NpRx0gYosgZV" version="21.1.8" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="2049" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,12 +52,12 @@
         <mxCell id="qBZ2SDUeg2U-6hjJz0xa-33" value="JSAPI-登录App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="101.5" y="310" width="125" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-53" value="是，带用户凭证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-34" target="qBZ2SDUeg2U-6hjJz0xa-54">
+        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-53" value="是，返回用户凭证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-34" target="qBZ2SDUeg2U-6hjJz0xa-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="346" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-34" target="qBZ2SDUeg2U-6hjJz0xa-63">
+        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-64" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-34" target="qBZ2SDUeg2U-6hjJz0xa-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qBZ2SDUeg2U-6hjJz0xa-34" value="用户是否&lt;br&gt;登录 App" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -104,12 +104,13 @@
         <mxCell id="qBZ2SDUeg2U-6hjJz0xa-56" value="登录接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="629" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-63" target="qBZ2SDUeg2U-6hjJz0xa-54">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="qBZ2SDUeg2U-6hjJz0xa-65" value="返回用户凭证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBZ2SDUeg2U-6hjJz0xa-63" target="qBZ2SDUeg2U-6hjJz0xa-54">
+          <mxGeometry x="-0.3888" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="269" y="530" />
               <mxPoint x="269" y="434" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qBZ2SDUeg2U-6hjJz0xa-63" value="手机银行 App 登录页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
